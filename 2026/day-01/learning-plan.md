@@ -11,11 +11,11 @@
   - how does the end user get solution
  
    # 90-2000s
-  - software (code) => code zip=> operatin team
+  - software (code) => code zip=> operation team
   - op team -> system admin => network admin => database admin =>tester/qa team
   - server/app is serverd to end user
    (isko agile -sprint bolte hai)
-  dev to oper tem ko mail krte the code 
+  - dev to oper team ko mail krte the code 
 
 # 2009 - Patrick debois 
 Development team collaborate with operation team 
