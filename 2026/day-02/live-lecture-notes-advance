@@ -1,0 +1,28 @@
+# SSH (secure shell) type of rule  [set of rule defined ]
+
+
+server a server b
+
+browser is a client 
+
+update se download krte ho 
+upgrade se install krte ho download package ko 
+
+
+-------------------------user management---------------------------
+useradd
+userdel
+passwd
+usermod - modify 
+sudo gpasswd -a ubuntu yash (add yash into ubuntu )  
+check -> cat /etc/group 
+ newgrp - log in to a new group
+
+chown -> is used to change the ownership of file or folder 
+chown devops(group) hello.txt(file) 
+
+=====================filemanagement======================
+read (cat)
+write (vim)
+execute (./)
+
