@@ -13,16 +13,24 @@ upgrade se install krte ho download package ko
 useradd
 userdel
 passwd
-usermod - modify 
-sudo gpasswd -a ubuntu yash (add yash into ubuntu )  
+groupadd
+usermod - modify (apedn user to the group)  cmd=> usermod -aG devops ubuntu 
+sudo gpasswd -a ubuntu yash (add yash into ubuntu )   (it is used to add user into group)
 check -> cat /etc/group 
- newgrp - log in to a new group
+newgrp - log in to a new group
+addgroup => add user to the group 
 
 chown -> is used to change the ownership of file or folder 
 chown devops(group) hello.txt(file) 
+chgrp => group k liye hota hai
+
 
 =====================filemanagement======================
 read (cat)
 write (vim)
-execute (./)
+execute (./)(shell /executable file banan pdta hai )
+
+rwx   rwx   rwx
+|      |     |
+owner group other
 
